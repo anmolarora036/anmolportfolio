@@ -18,35 +18,35 @@ export default function App() {
   const links = [
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/yourprofile", // <--- Change this
+      url: "https://linkedin.com/in/anmol-arora", // <--- Change this
       icon: <Linkedin size={18} />,
       label: "Professional Network",
       color: "group-hover:text-[#0077b5]"
     },
     {
       name: "GitHub",
-      url: "https://github.com/yourusername", // <--- Change this
+      url: "https://github.com/anmolarora036", // <--- Change this
       icon: <Github size={18} />,
       label: "Development Portfolio",
       color: "group-hover:text-[#333]"
     },
     {
       name: "Medium",
-      url: "https://medium.com/@yourusername", // <--- Change this
+      url: "https://medium.com/@anmolarora036", // <--- Change this
       icon: <BookOpen size={18} />,
       label: "Research & Insights",
       color: "group-hover:text-[#00ab6c]"
     },
     {
       name: "Instagram",
-      url: "https://instagram.com/yourusername", // <--- Change this
+      url: "https://instagram.com/anmolarora036", // <--- Change this
       icon: <Instagram size={18} />,
       label: "Visual Stories",
       color: "group-hover:text-[#e4405f]"
     },
     {
       name: "Facebook",
-      url: "https://facebook.com/yourusername", // <--- Change this
+      url: "https://www.facebook.com/anmolarora036/", // <--- Change this
       icon: <Facebook size={18} />,
       label: "Social Connect",
       color: "group-hover:text-[#1877f2]"
