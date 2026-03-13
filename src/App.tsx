@@ -93,18 +93,20 @@ export default function App() {
             <h1 className="text-4xl font-bold tracking-tight text-slate-900">Anmol Arora</h1>
             <div className="flex items-center justify-center gap-2 text-accent font-mono text-sm uppercase tracking-widest">
               <PieChart size={14} />
-              <span>Data Science MBA Candidate</span>
+              <span>Data Scientist turned Strategist</span>
             </div>
           </div>
           
           <p className="text-muted text-sm leading-relaxed max-w-sm mx-auto">
-            Bridging the gap between complex data architectures and strategic business decision-making. Specializing in predictive modeling and market analytics.
+            Bridging the gap between "trust me bro" and actual ROI.
+
+
           </p>
         </div>
 
         {/* Portals Section */}
         <div className="space-y-3">
-          <h2 className="text-[10px] uppercase tracking-[0.2em] text-muted font-bold px-2">Analytical Portals</h2>
+          <h2 className="text-[10px] uppercase tracking-[0.2em] text-muted font-bold px-2">Follow my work!</h2>
           <div className="grid gap-3">
             {links.map((link, index) => (
               <motion.a
