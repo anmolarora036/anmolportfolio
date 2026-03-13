@@ -18,35 +18,35 @@ export default function App() {
   const links = [
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/anmol-arora/", // <--- Change this
+      url: "https://linkedin.com/in/yourprofile", // <--- Change this
       icon: <Linkedin size={18} />,
       label: "Professional Network",
       color: "group-hover:text-[#0077b5]"
     },
     {
       name: "GitHub",
-      url: "https://github.com/anmolarora036", // <--- Change this
+      url: "https://github.com/yourusername", // <--- Change this
       icon: <Github size={18} />,
       label: "Development Portfolio",
       color: "group-hover:text-[#333]"
     },
     {
       name: "Medium",
-      url: "https://medium.com/@anmolarora036", // <--- Change this
+      url: "https://medium.com/@yourusername", // <--- Change this
       icon: <BookOpen size={18} />,
       label: "Research & Insights",
       color: "group-hover:text-[#00ab6c]"
     },
     {
       name: "Instagram",
-      url: "https://www.instagram.com/anmolarora036/", // <--- Change this
+      url: "https://instagram.com/yourusername", // <--- Change this
       icon: <Instagram size={18} />,
       label: "Visual Stories",
       color: "group-hover:text-[#e4405f]"
     },
     {
       name: "Facebook",
-      url: "https://www.facebook.com/anmolarora036", // <--- Change this
+      url: "https://facebook.com/yourusername", // <--- Change this
       icon: <Facebook size={18} />,
       label: "Social Connect",
       color: "group-hover:text-[#1877f2]"
@@ -73,11 +73,14 @@ export default function App() {
             <div className="w-32 h-32 rounded-2xl overflow-hidden border border-border data-card p-1 mx-auto shadow-xl transition-transform duration-500">
               <img 
                 // TO USE YOUR OWN PICTURE:
-                // 1. Upload your photo to the 'public' folder (e.g., 'profile.jpg')
-                // 2. Change the src below to "/profile.jpg"
-                src="https://picsum.photos/seed/data/400/400" 
-                alt="Profile" 
+                // 1. Upload your photo to the 'public' folder and name it 'profile.jpg'
+                src="/profile.jpg" 
+                alt="Anmol Arora" 
                 className="w-full h-full object-cover rounded-xl grayscale hover:grayscale-0 transition-all duration-500"
+                onError={(e) => {
+                  // Fallback to placeholder if profile.jpg is not found
+                  (e.target as HTMLImageElement).src = "https://picsum.photos/seed/data/400/400";
+                }}
                 referrerPolicy="no-referrer"
               />
             </div>
