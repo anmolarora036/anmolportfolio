@@ -8,8 +8,7 @@ import {
   PieChart,
   ChevronRight,
   Binary,
-  Instagram,
-  Facebook
+  Instagram
 } from "lucide-react";
 
 export default function App() {
@@ -43,13 +42,6 @@ export default function App() {
       icon: <Instagram size={18} />,
       label: "Visual Stories",
       color: "group-hover:text-[#e4405f]"
-    },
-    {
-      name: "Facebook",
-      url: "https://www.facebook.com/anmolarora036/", // <--- Change this
-      icon: <Facebook size={18} />,
-      label: "Social Connect",
-      color: "group-hover:text-[#1877f2]"
     }
   ];
 
