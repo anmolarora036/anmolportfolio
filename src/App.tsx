@@ -19,21 +19,21 @@ export default function App() {
       name: "LinkedIn",
       url: "https://linkedin.com/in/anmol-arora", // <--- Change this
       icon: <Linkedin size={18} />,
-      label: "Professional Network",
+      label: "About",
       color: "group-hover:text-[#0077b5]"
     },
     {
       name: "GitHub",
       url: "https://github.com/anmolarora036", // <--- Change this
       icon: <Github size={18} />,
-      label: "Development Portfolio",
+      label: "Projects",
       color: "group-hover:text-[#333]"
     },
     {
       name: "Medium",
       url: "https://medium.com/@anmolarora036", // <--- Change this
       icon: <BookOpen size={18} />,
-      label: "Research & Insights",
+      label: "Blog",
       color: "group-hover:text-[#00ab6c]"
     },
     {
@@ -62,7 +62,7 @@ export default function App() {
             className="relative inline-block"
           >
             {/* 3. PROFILE PICTURE SIZE INCREASED BY 15% (w-32 h-32) */}
-            <div className="w-32 h-32 rounded-2xl overflow-hidden border border-border data-card p-1 mx-auto shadow-xl transition-transform duration-500">
+            <div className="w-40 h-40 rounded-2xl overflow-hidden border border-border data-card p-1 mx-auto shadow-xl transition-transform duration-500">
               <img 
                 // TO USE YOUR OWN PICTURE:
                 // 1. Upload your photo to the 'public' folder and name it 'profile.jpg'
@@ -139,12 +139,12 @@ export default function App() {
             className="flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-accent text-white font-bold hover:bg-accent/90 transition-all shadow-lg shadow-accent/20"
           >
             <FileText size={20} />
-            Download Executive CV
+            Download CV
           </a>
           
           <div className="flex justify-center gap-6 text-muted">
             <a href="mailto:anmolarora036@gmail.com" className="hover:text-accent transition-colors flex items-center gap-2 text-xs font-medium">
-              <Mail size={16} /> anmolarora036@gmail.com
+              <Mail size={16} /> writetoanmolarora@gmail.com
             </a>
           </div>
         </motion.div>
@@ -152,7 +152,7 @@ export default function App() {
         {/* Terminal Footer */}
         <div className="pt-8 text-center">
           <div className="inline-block font-mono text-[10px] text-accent/60 bg-accent/5 px-3 py-1 rounded-full border border-accent/10">
-            $ system.status: operational_v2.0.4
+            Anmol Arora © 2025
           </div>
         </div>
       </motion.div>
